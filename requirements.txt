@@ -1,0 +1,5 @@
+torch>=1.8.0
+transformers>=4.18.0
+datasets
+torch_geometric
+wandb
