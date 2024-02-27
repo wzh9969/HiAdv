@@ -1,4 +1,6 @@
-# Quick demo of HiAdv
+# Utilizing Local Hierarchy with Adversarial Training for Hierarchical Text Classification
+This repository implements a adversarial framework for hierarchical text classification. This work has been accepted as the long paper "Utilizing Local Hierarchy with Adversarial Training for Hierarchical Text Classification" in LREC-COLING 2024.
+
 ## Requirements
 
 * Python >= 3.6
@@ -77,8 +79,6 @@ python train.py --name test --batch 8 --data nyt --model single_prompt --adv
 ### Reproducibility
 
 We experiment on one GeForce RTX 3090 GPU (24G) with CUDA version $11.2$. We use a batch size of $8$ to fully tap one GPU.
-
-Following previous works, we select the best results among 5 individual runs (`seed=1,2,3,4,2022`).
 
 ## Test
 
