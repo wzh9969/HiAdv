@@ -101,3 +101,13 @@ e.g. Test on previous example.
 ```shell
 python test.py --name nyt-test --batch 64
 ```
+
+## Citation
+```
+@article{wang2024utilizing,
+  title={Utilizing Local Hierarchy with Adversarial Training for Hierarchical Text Classification},
+  author={Wang, Zihan and Wang, Peiyi and Wang, Houfeng},
+  journal={arXiv preprint arXiv:2402.18825},
+  year={2024}
+}
+```
